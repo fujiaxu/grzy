@@ -1,0 +1,399 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: "Cinzel Decorative",cursive;
+}
+header{
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+	background-image: url('../img/banner3.jpg');
+	background-repeat: no-repeat;
+	position: relative;
+}
+header span{
+	color: #18A3B7;
+	font-size: 100px;
+	position: absolute;
+	top: 40%;
+	left: 16%;
+}
+header e{
+	color: white;
+	font-size: 140px;
+	position: absolute;
+	top: 55%;
+	left: 25%;
+}
+.About{
+	width: 100%;
+	height: auto;
+	padding: 48px 0px;
+	background: white;
+	text-align: center;
+}
+.About h3{
+	font-weight: normal;
+	font-size: 40px;
+	color: #18A3B7;
+}
+.About p{
+	margin: 0 auto;
+	width: 54%;
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+}
+.Trendz{
+	width: 100%;
+	height: auto;
+	background: #F3F3F3;
+	padding: 64px 0px 64px;
+	text-align: center;
+}
+.neikuan{
+	width: 1028px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.Trendz>h3{
+	font-weight: normal;
+	font-size: 40px;
+	color: #18A3B7;
+	padding-bottom: 13px;
+}
+.Trendz>p{
+	margin: 0 auto;
+	width: 54%;
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+	padding-bottom: 40px;
+}
+.imgBox{
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.left_img{
+	width: 50%;
+	height: auto;
+	float: left;	
+}
+.left_img img{
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+.right_img{
+	width: 50%;
+	float: left;
+}
+.right_img img{
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+.Featured{
+	background: white;
+}
+.Featured_left{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.Featured_left img{
+	width: 100%;
+	height: auto;
+}
+.Featured_right{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.Featured_right h3{
+	color: black;
+	font-size: 30px;
+	text-align: left;
+	font-weight: normal;
+}
+.Featured_right p{
+	width: 89%;
+	display: block;
+	margin: 10px 0px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 26px;
+	font-family: 'Raleway', sans-serif;
+}
+.read{
+	display: block;
+	width: 123px;
+	height: 50px;
+	background: #1FADC5;
+	margin-top: 28px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 14px;
+	line-height: 50px;
+	transition: background 1s;
+}
+.read:hover{
+	background: black;
+}
+.SOURCE{
+	box-sizing: border-box;
+	border-top: 1px solid white;
+	width: 100%;
+	height: 440px;
+	position: relative;
+	text-align: center;
+	background-image: url('../img/bottom.jpg');
+}
+.SOURCE h3{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	font-size: 35px;
+	margin-top: 155px;
+	color: #18A3B7;
+	margin-bottom: 20px;
+}
+.SOURCE p{
+	margin: 0 auto;
+	display: block;
+	width: 40%;
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+}
+footer{
+	width: 100%;
+	overflow: hidden;
+	background: #28282F;
+	padding: 16px 0px;
+}
+footer .neikuan>ul{
+	padding: 16px 0px;
+	overflow: hidden;
+}
+footer .neikuan>ul>li{
+	width: 25%;
+	height: auto;
+	float: left;
+	padding: 0px 15px;
+}
+footer .neikuan>ul>li>h4{
+	text-align: left;
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+}
+.biankuang{
+	width: 52%;
+	padding: 8px;
+	border-bottom: 2px ridge rgba(72, 72, 76, 0.88);
+	margin-bottom: 20px;
+}
+footer .neikuan>ul>li>p{
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	color: #A1A3AB;
+	font-size: 14px;
+	line-height: 20px;
+}
+footer .neikuan>ul>li>p:nth-child(4){
+	margin-top: 17px;
+}
+.tags ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.tags ul>li{
+	float: left;
+	margin: 5px 0px 4px;
+}
+.tags ul>li>a{
+	display: block;
+	height: 100%;
+	padding: 8px 10px;
+	background: #232323;
+	font-family: 'Raleway', sans-serif;
+	color: #A1A3AB;
+	font-size: 14px;
+	margin-right: 8px;
+}
+.latest_top{
+	width: 100%;
+	overflow: hidden;
+}
+.icon_img{
+	float: left;
+	width: 10%;
+	margin-right: 2%;
+}
+.icon_img a{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.icon_font{
+	width: 86%;
+	float: left;
+}
+.icon_font>p{
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	color: #A1A3AB;
+	font-size: 14px;
+	line-height: 20px;
+}
+.icon_font>p>a{
+	font-family: 'Raleway', sans-serif;
+	color: #D7D7D8;
+}
+.icon_font>p>em{
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	color: white;
+	margin: 10px 0px;
+}
+.flickr{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.flickr-son{
+	width: 32%;
+	margin: 0 1.5px 3px;
+	overflow: hidden;
+	float: left;
+}
+.flickr-son a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.flickr-son a img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.copyright{
+	padding: 19px 16px;
+	text-align: center;
+	background: #232323;
+}
+.copyright p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: white;
+}
+@media screen and (max-width: 1280px){
+	.neikuan{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 1025px){
+	.neikuan{
+		width: 90%;
+	}
+	header{
+		height: 459px;
+	}
+	header span{
+		top: 25%;
+		font-size: 60px;
+	}
+	header e{
+		top: 40%;
+		font-size: 60px;
+	}
+	footer .neikuan>ul>li{
+		width: 100%;
+	}
+	.Featured_left{
+		float: none;
+	}
+	.Featured_right{
+		width: 100%;
+		float: none;
+	}
+	.left_img{
+		float: none;
+	}
+}
+@media screen and (max-width: 770px){
+	.Featured_left{
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+	}
+	.Featured_right{
+		margin-left: 10%;
+	}
+	.left_img{
+		float: left;
+	}
+	.SOURCE{
+		background-size: cover;
+		height: 342px;
+	}
+	.SOURCE h3{
+		font-size: 30px;
+		margin-top: 100px;
+	}
+	.SOURCE p{
+		width: 70%;
+	}
+}
+@media screen and (max-width: 685px){
+	.left_img{
+		float: none;
+	}
+}
+@media screen and (max-width: 640px){
+	header{
+		height: 346px;
+	}
+	.left_img{
+		float: left;
+	}
+}
+@media screen and (max-width: 480px){
+	header{
+		height: 222px;
+	}
+	header span{
+		top: 15%;
+		font-size: 50px;
+	}
+	header e{
+		top: 40%;
+		font-size: 50px;
+	}
+	.left_img{
+		margin: 0 auto;
+		width: 80%;
+		float: none;
+	}
+	.right_img{
+		margin: 0 auto;
+		width: 80%;
+		float: none;
+	}
+	.Featured_left{
+		width: 80%;
+		margin: 0 auto;
+		float: none;
+	}
+	.Featured_right{
+		margin-left: 10%;
+		float: none;
+	}
+}
